@@ -8,28 +8,31 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h2>Share <span>Humanity</span></h2>
-        <nav>
-            <ul class="main-menu">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Problèmes</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">A Propos</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar">
+            <div class="container">
+                <h2>Share <span>Humanity</span></h2>
+            <div class="main-menu">
+                <ul >
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Problèmes</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">A Propos</a></li>
+                </ul>
+            </div>
         <button class="hamburger-button">
             <div class="hamburger-line"></div>
             <div class="hamburger-line"></div>
             <div class="hamburger-line"></div>
         </button>
-        <ul class="mobile-menu">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Problèmes</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">A Propos</a></li>
-        </ul>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Problèmes</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">A Propos</a></li>
+            </ul>
         </div>
+    </nav>
     </header>
     
     <section class="hero">
@@ -213,7 +216,7 @@
                 </p>
                 <form action="">
                     <input type="email" placeholder="Entrer l'email" required>
-                    <textarea name="" id="" placeholder="Entre votre message"></textarea>
+                    <textarea name="" id="" placeholder="Entre votre message" rows="10"></textarea>
                     <button type="submit" class="btn btn-primary btn-block">Envoyer le Message</button>
                 </form>
             </div>
